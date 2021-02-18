@@ -60,27 +60,14 @@ class _MyAppState extends State<MyApp> {
                   onPressed: () async {
                     File file = await ImagePicker.pickImage(
                         source: ImageSource.gallery);
-                    SocialShare.shareInstagramStory(file.path, "#ffffff",
-                            "#000000", "https://deep-link-url")
+                    SocialShare.shareInstagramStory(backgroundImagePath: file.path)
                         .then((data) {
                       print(data);
                     });
                   },
                   child: Text("Share On Instagram Story"),
                 ),
-                RaisedButton(
-                  onPressed: () async {
-                    await screenshotController.capture().then((image) async {
-                      SocialShare.shareInstagramStorywithBackground(image.path,
-                              "#ffffff", "#000000", "https://deep-link-url",
-                              backgroundImagePath: image.path)
-                          .then((data) {
-                        print(data);
-                      });
-                    });
-                  },
-                  child: Text("Share On Instagram Story with background"),
-                ),
+
                 RaisedButton(
                   onPressed: () async {
                     await screenshotController.capture().then((image) async {
