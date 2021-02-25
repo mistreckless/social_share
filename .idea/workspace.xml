@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d284a3b7-6ce1-4c0f-9d83-fa9a0ddbc603" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/shekarmudaliyar/social_share/SocialSharePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/shekarmudaliyar/social_share/SocialSharePlugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/android/src/main/kotlin/com/shekarmudaliyar/social_share/SocialSharePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/android/src/main/kotlin/com/shekarmudaliyar/social_share/SocialSharePlugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/example/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/lib/social_share.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/lib/social_share.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/social_share/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/SocialSharePlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SocialSharePlugin.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/social_share.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/social_share.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +18,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="62" />
-    <option name="y" value="55" />
-    <option name="width" value="1332" />
-    <option name="height" value="747" />
   </component>
   <component name="ProjectId" id="1oejrl2YHer9lHmO25XjvMdFUGc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,28 +46,58 @@
       <option name="presentableId" value="Default" />
       <updated>1575884091134</updated>
     </task>
+    <task id="LOCAL-00001" summary="instagram background image only share">
+      <created>1613659963752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613659963756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="instagram background image only share" />
+    <option name="LAST_COMMIT_MESSAGE" value="instagram background image only share" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="309" key="GridCell.Tab.0.bottom" timestamp="1613659370229">
+    <state x="451" y="148" key="CommitChangelistDialog2" timestamp="1613659963157">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="309" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1613659370229" />
-    <state width="1750" height="309" key="GridCell.Tab.0.center" timestamp="1613659370228">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="451" y="148" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1613659963157" />
+    <state width="1750" height="300" key="GridCell.Tab.0.bottom" timestamp="1614278782697">
+      <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="309" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1613659370228" />
-    <state width="1750" height="309" key="GridCell.Tab.0.left" timestamp="1613659370227">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="309" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614267464847" />
+    <state width="1750" height="300" key="GridCell.Tab.0.bottom/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1614278782697" />
+    <state width="1750" height="309" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1613661346292" />
+    <state width="1750" height="300" key="GridCell.Tab.0.center" timestamp="1614278782696">
+      <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="309" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1613659370227" />
-    <state width="1750" height="309" key="GridCell.Tab.0.right" timestamp="1613659370229">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="309" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614267464845" />
+    <state width="1750" height="300" key="GridCell.Tab.0.center/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1614278782696" />
+    <state width="1750" height="309" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1613661346291" />
+    <state width="1750" height="300" key="GridCell.Tab.0.left" timestamp="1614278782696">
+      <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="309" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1613659370229" />
+    <state width="1750" height="309" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614267464844" />
+    <state width="1750" height="300" key="GridCell.Tab.0.left/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1614278782696" />
+    <state width="1750" height="309" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1613661346291" />
+    <state width="1750" height="300" key="GridCell.Tab.0.right" timestamp="1614278782697">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="309" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1614267464846" />
+    <state width="1750" height="300" key="GridCell.Tab.0.right/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1614278782697" />
+    <state width="1750" height="309" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1613661346291" />
     <state x="397" y="210" key="SettingsEditor" timestamp="1613654326790">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1613654326790" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1613659965307">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1613659965307" />
   </component>
 </project>

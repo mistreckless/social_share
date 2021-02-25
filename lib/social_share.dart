@@ -10,9 +10,24 @@ class SocialShare {
   static Future<String> shareInstagramStory(
       {String backgroundImagePath}) async {
     Map<String, dynamic> args;
+    if (Platform.isIOS) {
       args = <String, dynamic>{
         "backgroundImage": backgroundImagePath
       };
+    } else {
+      final tempDir = await getTemporaryDirectory();
+
+      File backgroundimage = File(backgroundImagePath);
+      Uint8List backgroundimagedata = backgroundimage.readAsBytesSync();
+      String backgroundAssetName = 'backgroundAsset.jpg';
+      final Uint8List backgroundAssetAsList = backgroundimagedata;
+      final backgroundAssetPath = '${tempDir.path}/$backgroundAssetName';
+      File backfile = await File(backgroundAssetPath).create();
+      backfile.writeAsBytesSync(backgroundAssetAsList);
+      args = <String, dynamic>{
+        "backgroundImage": backgroundAssetName
+      };
+    }
     final String response =
         await _channel.invokeMethod('shareInstagramStory', args);
     return response;
