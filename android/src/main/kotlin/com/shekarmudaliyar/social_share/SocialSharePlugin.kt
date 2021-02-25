@@ -35,29 +35,21 @@ class SocialSharePlugin(private val registrar: Registrar) : MethodCallHandler {
             //share on instagram story
             val backgroundImage: String? = call.argument("backgroundImage")
 
-            val backgroundTopColor: String? = call.argument("backgroundTopColor")
-            val backgroundBottomColor: String? = call.argument("backgroundBottomColor")
-            val attributionURL: String? = call.argument("attributionURL")
-
             val intent = Intent("com.instagram.share.ADD_TO_STORY")
             intent.type = "image/*"
             intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
-            if (backgroundImage != null) {
-                intent.setDataAndType(Uri.parse(backgroundImage), "image/*")
-            }
-            if (backgroundTopColor != null) {
-                intent.putExtra("top_background_color", backgroundTopColor)
-            }
-            if (backgroundBottomColor != null) {
-                intent.putExtra("bottom_background_color", backgroundBottomColor)
-            }
             Log.d("", registrar.activity().toString())
             // Instantiate activity and verify it will resolve implicit intent
             val activity: Activity = registrar.activity()
+            val backfile =  File(registrar.activeContext().cacheDir,backgroundImage)
+            val backgroundImageFile = FileProvider.getUriForFile(registrar.activeContext(), registrar.activeContext().applicationContext.packageName + ".com.shekarmudaliyar.social_share", backfile)
+            intent.setDataAndType(backgroundImageFile,"image/*")
+            activity.grantUriPermission(
+                "com.instagram.android", backgroundImageFile, Intent.FLAG_GRANT_READ_URI_PERMISSION)
             if (activity.packageManager.resolveActivity(intent, 0) != null) {
                 registrar.activeContext().startActivity(intent)
-                result.success("success")
+                result.success("success3")
             } else {
                 result.success("error")
             }
